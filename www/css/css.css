@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mo {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 384px;
+	float: left;
+	background: url(../images/banner.png) no-repeat center center;
+}
+
+.content {
+	float: left;
+	width: 100%;
+}
+
+.content_main {
+	width: 380px;
+	margin: 61px auto 0;
+}
+
+.ul,
+.ol {
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.ol {
+	position: relative;
+}
+
+.ul>li {
+	width: 50%;
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid aqua;
+	cursor: pointer;
+}
+
+li {
+	float: left;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.ol>li {
+	width: 380px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.show {
+	background-color: blueviolet !important;
+	color: white !important;
+}
+
+.checked {
+	display: block !important;
+}
+
+.ol>li>input {
+	float: left;
+	width: 100%;
+	height: 52px;
+	box-sizing: border-box;
+	padding: 0 37px 0 12px;
+	border: 1px solid #ccc;
+	outline: none;
+	border-radius: 4px;
+	font-size: 18px;
+	margin-bottom: 18px;
+}
+
+.ol>li>button {
+	text-decoration: none;
+	width: 100%;
+	float: left;
+	font-size: 18px;
+	color: white;
+	height: 52px;
+	line-height: 52px;
+	background-color: #4d40b6;
+	text-align: center;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.ol>li>input:first-of-type {
+	background: url(../images/user.png) no-repeat right 15px top 13px;
+}
+
+.ol>li>input:last-of-type {
+	background: url(../images/pass.png) no-repeat right 15px top 13px;
+}
+
+.footer {
+	float: left;
+	background-color: #e4e4e4;
+	font-size: 13px;
+	line-height: 50px;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color: #5f5f5f;
+	margin-top: 331px;
+}
+
+.box {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 1px solid #EE5896;
+}
+
+.img>img {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+form input {
+	float: left;
+	width: 200px;
+	box-sizing: border-box;
+}
